@@ -1,5 +1,5 @@
 <?php
-// $Id: modinfo.php 75 2005-09-06 21:52:55Z gron $
+// $Id$
 //Spanish translation by Horacio Salazar aka hsalazar
 
 // Module Info
@@ -10,10 +10,10 @@ define("_MI_WSPROJECT_NAME","wsProject");
 define("_MI_WSPROJECT_DESC","Herramienta para planear y administrar tus proyectos.");
 
 // Names of admin menu items
-define('_MI_WSPROJECT_ADMENU1','Parámetros');
+define('_MI_WSPROJECT_ADMENU1','ParÃ¡metros');
 
 
-//Die Menüpunkte
+//Die MenÃ¼punkte
 define("_MI_WSPROJECT_COMPLETEDPROJECTS", "Proyectos terminados");
 
 define("_MI_WSPROJECT_ACTIVEPROJECTS","Proyectos activos");

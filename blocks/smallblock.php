@@ -1,5 +1,5 @@
 <?php
-// $Id: smallblock.php 75 2005-09-06 21:52:55Z gron $
+// $Id$
 //  ------------------------------------------------------------------------ //
 //              wsProject - A XOOPS Project Management Modul                 //
 //                  Copyright (c) 2005 stefan-marr.de                        //

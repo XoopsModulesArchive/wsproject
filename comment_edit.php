@@ -1,5 +1,5 @@
 <?php
-// $Id: comment_edit.php 86 2006-04-22 11:55:36Z gron $
+// $Id$
 //  ------------------------------------------------------------------------ //
 //                XOOPS - PHP Content Management System                      //
 //                    Copyright (c) 2000 XOOPS.org                           //

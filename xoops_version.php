@@ -1,5 +1,5 @@
 <?php
-// $Id: xoops_version.php 94 2006-04-30 12:13:53Z gron $
+// $Id$
 //  ------------------------------------------------------------------------ //
 //              wsProject - A XOOPS Project Management Modul                 //
 //                  Copyright (c) 2005 stefan-marr.de                        //
@@ -26,7 +26,7 @@
 //  ------------------------------------------------------------------------ //
 
 $modversion['name'] = _MI_WSPROJECT_NAME;
-$modversion['version'] = '1.0.3';
+$modversion['version'] = '1.0.4';
 $modversion['description'] = _MI_WSPROJECT_DESC;
 $modversion['credits'] = "Incyte Project Manager Clone\nSpanish translation by hsalazar.\nFrench translation by philou.\n\nTraditional Chinese translation by xoobs.\nDanish translation by Anders Kristiansen\nThx to Simon Yates and Azmeen Afandi for contribute enhancements.\n\nwsProject is powered by TOOLSLAVE Software Engineering [http://www.toolslave.com]";
 $modversion['author'] = "Stefan Marr [http://www.stefan-marr.de/]";

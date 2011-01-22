@@ -1,5 +1,5 @@
 <?php
-// $Id: mytasks.php 77 2005-09-07 22:56:44Z gron $
+// $Id$
 //  ------------------------------------------------------------------------ //
 //              wsProject - A XOOPS Project Management Modul                 //
 //                  Copyright (c) 2005 stefan-marr.de                        //

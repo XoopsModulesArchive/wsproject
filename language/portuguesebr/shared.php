@@ -6,33 +6,33 @@
 define("_WS_TASKPLANED",	"agendado");
 define("_WS_OVERDUE",		"vencido");
 define("_WS_TIME",			"tempo");
-define("_WS_NOTSTARTED",	"n„o iniciado");
+define("_WS_NOTSTARTED",	"n√£o iniciado");
 define("_WS_COMPLETED",		"finalizado");
 define("_WS_COMPLETE",		"trabalho");
 
 define("_WS_PROGRESS",		"Percuntual Finalizado");
-define("_WS_DEADLINE",		"TÈrmino");
+define("_WS_DEADLINE",		"T√©rmino");
 
-define("_WS_PROJECTSTART",	"InÌcio de Projeto");
-define("_WS_PROJECTDEADLINE","TÈrmino de Projeto");
-define("_WS_TODO",			"Todos os Õtens");
-define("_WS_COMPLETEDTASKS","Õtens Terminados");
-define("_WS_RESP_USER",		"Usu·rio");
+define("_WS_PROJECTSTART",	"In√≠cio de Projeto");
+define("_WS_PROJECTDEADLINE","T√©rmino de Projeto");
+define("_WS_TODO",			"Todos os √çtens");
+define("_WS_COMPLETEDTASKS","√çtens Terminados");
+define("_WS_RESP_USER",		"Usu√°rio");
 define("_WS_HOURSTODO",		"Total de Horas Remanescentes");
 define("_WS_HOURSDONE",		"Total Houras Completadas");
 define("_WS_STATUS",		"Estado");
 define("_WS_HOURS",			"Houras");
-define("_WS_DESCRIPTION",	"DescriÁ„o");
+define("_WS_DESCRIPTION",	"Descri√ß√£o");
 
-define("_WS_USERNAME",		"Nome de Usu·rio");
-define("_WS_RANK",			"NÌvel");
+define("_WS_USERNAME",		"Nome de Usu√°rio");
+define("_WS_RANK",			"N√≠vel");
 define("_WS_PROJECTS",		"Projetos");
 define("_WS_OPENTASKS",		"Tarefas Abertas");
-define("_WS_USERDETAILSFOR","Detalhe de Usu·rio por");
+define("_WS_USERDETAILSFOR","Detalhe de Usu√°rio por");
 
 define("_WS_PROJECT",		"Projeto");
-define("_WS_TITLE",			"TÌtulo");
-define("_WS_ACTION",		"AÁ„o");
+define("_WS_TITLE",			"T√≠tulo");
+define("_WS_ACTION",		"A√ß√£o");
 define("_WS_ADDTASK",		"Adicionar Tarefa");
 define("_WS_EDIT",			"Editar");
 define("_WS_DELETE",		"Deletar");

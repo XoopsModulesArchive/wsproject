@@ -5,14 +5,14 @@
 // The name of this module
 define('_MI_WSPROJECT_NAME', 'wsProject');
 // A brief description of this module
-define('_MI_WSPROJECT_DESC', 'Et værktøj til administration af projekter.');
+define('_MI_WSPROJECT_DESC', 'Et vÃ¦rktÃ¸j til administration af projekter.');
 
 // Names of admin menu items
 define('_MI_WSPROJECT_ADMENU1', 'Indstillinger');
 
 
-//Die Menüpunkte
-define('_MI_WSPROJECT_COMPLETEDPROJECTS', 'Gennemførte projekter');
+//Die MenÃ¼punkte
+define('_MI_WSPROJECT_COMPLETEDPROJECTS', 'GennemfÃ¸rte projekter');
 
 define('_MI_WSPROJECT_ACTIVEPROJECTS', 'Aktive projekter');
 define('_MI_WSPROJECT_MYTASKS', 'Mine opgaver');
@@ -44,8 +44,8 @@ define('_MI_WSPROJECT_NEWTASK_NOTIFYDSC', 'Giv mig notification ved nye opgaver 
 define('_MI_WSPROJECT_NEWTASK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatisk notification : Ny opgave');
 
 define('_MI_WSPROJECT_EDITTASK_NOTIFY', 'Rediger opgave');
-define('_MI_WSPROJECT_EDITTASK_NOTIFYCAP', 'Notification ved ændring af opgaver');
-define('_MI_WSPROJECT_EDITTASK_NOTIFYDSC', 'Giv mig notification, hvis en opgave ændres');
-define('_MI_WSPROJECT_EDITTASK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatisk notification : Opgave ændret');
+define('_MI_WSPROJECT_EDITTASK_NOTIFYCAP', 'Notification ved Ã¦ndring af opgaver');
+define('_MI_WSPROJECT_EDITTASK_NOTIFYDSC', 'Giv mig notification, hvis en opgave Ã¦ndres');
+define('_MI_WSPROJECT_EDITTASK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatisk notification : Opgave Ã¦ndret');
 
 ?>

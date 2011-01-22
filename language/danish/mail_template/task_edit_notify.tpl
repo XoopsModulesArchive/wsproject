@@ -1,6 +1,6 @@
 Hej {X_UNAME},
 
-En opgave er ændret
+En opgave er Ã¦ndret
 
  Opgavenavn:   {TASK_NAME}
 Tidsforbrug:   {TASK_HOURS}
@@ -9,14 +9,14 @@ Beskrivelse:
 {TASK_DESC}
 	  
 
-Følg dette link for mere information: {TASK_URL}
+FÃ¸lg dette link for mere information: {TASK_URL}
 
 -----------
 
-Du modtager denne besked fordi du har valgt at få notificationer når der ændres i opgaver
+Du modtager denne besked fordi du har valgt at fÃ¥ notificationer nÃ¥r der Ã¦ndres i opgaver
 
 
-Hvis dette er er fejl og du ikke ønsker flere notificationer, så opdater dine notificationsindstillinger på nedenstående link:
+Hvis dette er er fejl og du ikke Ã¸nsker flere notificationer, sÃ¥ opdater dine notificationsindstillinger pÃ¥ nedenstÃ¥ende link:
 {X_UNSUBSCRIBE_URL}
 
 -----------

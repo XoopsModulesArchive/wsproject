@@ -11,16 +11,16 @@ define("_MI_WSPROJECT_DESC","Zum Planen und Verwalten von Projektaufgaben.");
 define('_MI_WSPROJECT_ADMENU1','Einstellungen');
 
 
-//Die Menüpunkte
+//Die MenÃ¼punkte
 define("_MI_WSPROJECT_COMPLETEDPROJECTS",	"Fertiggestellte Projekte");
 
 define("_MI_WSPROJECT_ACTIVEPROJECTS","Aktive Projekte");
 define("_MI_WSPROJECT_MYTASKS",		"Meine Aufgaben");
 define("_MI_WSPROJECT_NEWPROJECT",		"Neues Projekt");
 
-//Blöcke:
+//BlÃ¶cke:
 define("_MI_WSPROJECT_PROJECTSTATUS",	"Projektstatus");
-define("_MI_WSPROJECT_PROJECTOVERVIEW",	"Projekt&uuml;berblick");
+define("_MI_WSPROJECT_PROJECTOVERVIEW",	"ProjektÃ¼berblick");
 
 //Notifications
 define ('_MI_WSPROJECT_GLOBAL_NOTIFY', 'Allgemeine Einstellungen');
@@ -43,8 +43,9 @@ define ('_MI_WSPROJECT_NEWTASK_NOTIFYDSC', 'Benachrichtigung erfolgt bei Zuweisu
 define ('_MI_WSPROJECT_NEWTASK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatische Benachrichtigung: Neue Aufgabe');
 
 define ('_MI_WSPROJECT_EDITTASK_NOTIFY', 'Aufgabe bearbeitet');
-define ('_MI_WSPROJECT_EDITTASK_NOTIFYCAP', 'Benachrichtigen bei Veränderung einer Aufgaben.');
-define ('_MI_WSPROJECT_EDITTASK_NOTIFYDSC', 'Benachrichtigung erfolgt bei Veränderung einer bestehenden Aufgabe.');
+define ('_MI_WSPROJECT_EDITTASK_NOTIFYCAP', 'Benachrichtigen bei VerÃ¤nderung einer Aufgaben.');
+define ('_MI_WSPROJECT_EDITTASK_NOTIFYDSC', 'Benachrichtigung erfolgt bei VerÃ¤nderung einer bestehenden Aufgabe.');
 define ('_MI_WSPROJECT_EDITTASK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatische Benachrichtigung: Aufgabe bearbeitet');
 
 ?>
+

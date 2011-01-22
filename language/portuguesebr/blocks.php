@@ -1,7 +1,7 @@
 <?php
 
 define("_MB_WSPROJECT_SMALLBLOCKTITLE",		"Estado do Projeto");
-define("_MB_WSPROJECT_RANDOM",	"aleatório");
+define("_MB_WSPROJECT_RANDOM",	"aleatÃ³rio");
 define("_MB_WSPROJECT_SHOWEDPROJECT", "Projeto a Mostrar");
 
 

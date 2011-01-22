@@ -1,5 +1,5 @@
 <?php
-// $Id: index.php 86 2006-04-22 11:55:36Z gron $
+// $Id$
 //  ------------------------------------------------------------------------ //
 //              wsProject - A XOOPS Project Management Modul                 //
 //                  Copyright (c) 2003 stefan-marr.de                        //

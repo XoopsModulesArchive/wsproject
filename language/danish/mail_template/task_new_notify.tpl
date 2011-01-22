@@ -10,10 +10,10 @@ Flere informationer: {TASK_URL}
 
 -----------
 
-Du modtager denne besked fordi du har valgt at få notificationer når der tildeles nye opgaver til dig
+Du modtager denne besked fordi du har valgt at fÃ¥ notificationer nÃ¥r der tildeles nye opgaver til dig
 
 
-Hvis dette er er fejl og du ikke ønsker flere notificationer, så opdater dine notificationsindstillinger på nedenstående link:
+Hvis dette er er fejl og du ikke Ã¸nsker flere notificationer, sÃ¥ opdater dine notificationsindstillinger pÃ¥ nedenstÃ¥ende link:
 {X_UNSUBSCRIBE_URL}
 
 

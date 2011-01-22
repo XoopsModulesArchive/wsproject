@@ -2,16 +2,16 @@ Hej {X_UNAME},
 
 Ett nytt projekt har initierats: {PROJECT_NAME}
 
-Följ denna länk för att få mer information: {PROJECT_URL}
+FÃ¶lj denna lÃ¤nk fÃ¶r att fÃ¥ mer information: {PROJECT_URL}
 
 -----------
 
-Ni har fått detta meddelande pågrund av att Ni har valt att bli underrättade när nya projekt har lagts till på vår webbsajt.
+Ni har fÃ¥tt detta meddelande pÃ¥grund av att Ni har valt att bli underrÃ¤ttade nÃ¤r nya projekt har lagts till pÃ¥ vÃ¥r webbsajt.
 
-Om detta är fel eller om Ni inte längre vill motta sådana underrättelser, vänligen uppdatera Era prenumerationer genom att besöka länken nedanför:
+Om detta Ã¤r fel eller om Ni inte lÃ¤ngre vill motta sÃ¥dana underrÃ¤ttelser, vÃ¤nligen uppdatera Era prenumerationer genom att besÃ¶ka lÃ¤nken nedanfÃ¶r:
 {X_UNSUBSCRIBE_URL}
 
-Vänligen svara INTE på detta PM/e-mail.
+VÃ¤nligen svara INTE pÃ¥ detta PM/e-mail.
 
 -----------
 

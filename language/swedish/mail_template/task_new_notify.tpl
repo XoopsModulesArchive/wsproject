@@ -3,20 +3,20 @@ Hej {X_UNAME},
 Du har tilldelats en ny uppgift: 
 
 Uppgiftens namn:   {TASK_NAME}
-Ber. Tidsåtgång:   {TASK_HOURS}
+Ber. TidsÃ¥tgÃ¥ng:   {TASK_HOURS}
     Beskrivning:
 {TASK_DESC}
 
-Följ denna länk för att få mer information:: {TASK_URL}
+FÃ¶lj denna lÃ¤nk fÃ¶r att fÃ¥ mer information:: {TASK_URL}
 
 -----------
 
-Ni har fått detta meddelande pågrund av att Ni har valt att bli underrättade när en ny uppgift har tilldelats Er.
+Ni har fÃ¥tt detta meddelande pÃ¥grund av att Ni har valt att bli underrÃ¤ttade nÃ¤r en ny uppgift har tilldelats Er.
 
-Om detta är fel eller om Ni inte längre vill motta sådana underrättelser, vänligen uppdatera Era prenumerationer genom att besöka länken nedanför:
+Om detta Ã¤r fel eller om Ni inte lÃ¤ngre vill motta sÃ¥dana underrÃ¤ttelser, vÃ¤nligen uppdatera Era prenumerationer genom att besÃ¶ka lÃ¤nken nedanfÃ¶r:
 {X_UNSUBSCRIBE_URL}
 
-Vänligen svara INTE på detta PM/e-mail.
+VÃ¤nligen svara INTE pÃ¥ detta PM/e-mail.
 
 -----------
 {X_SITENAME} ({X_SITEURL}) 

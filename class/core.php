@@ -1,5 +1,5 @@
 <?php
-// $Id: core.php 78 2005-09-28 09:50:02Z gron $
+// $Id$
 //  ------------------------------------------------------------------------ //
 //              wsProject - A XOOPS Project Management Modul                 //
 //                  Copyright (c) 2005 stefan-marr.de                        //

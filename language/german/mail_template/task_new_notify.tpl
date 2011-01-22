@@ -1,24 +1,25 @@
-Hello {X_UNAME},
+Hallo {X_UNAME},
 
-A new task had been assigned to you.
+Es wurde eine Aufgabe bearbeitet.
 
-  task name:   {TASK_NAME}
-      hours:   {TASK_HOURS}
-description:
+AUFGABENNAME:   {TASK_NAME}
+     STUNDEN:   {TASK_HOURS}
+BESCHREIBUNG:   
 {TASK_DESC}
-	  
 
-Follow this link to get more informations: {TASK_URL}
+Alle weiteren Informationen sind hier zu finden: {TASK_URL}
 
 -----------
 
-You are receiving this message because you selected to be notified when a new task had been assigned to you.
+Du hast derzeit die Benachrichtigung bei Veränderung von Aufgaben aktiviert.
 
-If this is an error or you wish not to receive further such notifications, please update your subscriptions by visiting the link below:
+Wenn dies ein Fehler ist und du keine neuen Nachrichten dieser Art mehr empfangen willst, folge diesem Link:
 {X_UNSUBSCRIBE_URL}
 
------------
+Bitte nicht auf diese E-Mail/PN antworten.
 
+-----------
 {X_SITENAME} ({X_SITEURL}) 
-webmaster
+Der Webmaster
 {X_ADMINMAIL}
+

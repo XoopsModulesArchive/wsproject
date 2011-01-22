@@ -1,5 +1,5 @@
 <?php
-// $Id: main.php 75 2005-09-06 21:52:55Z gron $
+// $Id$
 //      t.chinese by xoobs
 //include shared constants
 include_once(XOOPS_ROOT_PATH."/modules/wsproject/language/tchinese/shared.php");

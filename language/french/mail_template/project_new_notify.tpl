@@ -1,14 +1,14 @@
 Hello {X_UNAME},
 
-Un nouveau projet vient d'être lancé : {PROJECT_NAME}
+Un nouveau projet vient d'Ãªtre lancÃ© : {PROJECT_NAME}
 
 Lien pour de plus amples informations : {PROJECT_URL}
 
 -----------
 
-Vous recevez ce message car vous avez choisis d'être averti quand un nouveau projet est ajouté.
+Vous recevez ce message car vous avez choisis d'Ãªtre averti quand un nouveau projet est ajoutÃ©.
 
-Si c'est une erreur et que vous ne désirez plus recevoir ces informations, merci de mettre à jour vos préférences en cliquant sur le lien suivant :
+Si c'est une erreur et que vous ne dÃ©sirez plus recevoir ces informations, merci de mettre Ã  jour vos prÃ©fÃ©rences en cliquant sur le lien suivant :
 {X_UNSUBSCRIBE_URL}
 
 -----------

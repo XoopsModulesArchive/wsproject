@@ -17,3 +17,4 @@ Bitte nicht auf diese E-Mail/PN antworten.
 {X_SITENAME} ({X_SITEURL}) 
 Der Webmaster
 {X_ADMINMAIL}
+
