@@ -30,7 +30,9 @@ include("header.php");
 
 $projectmanagmer = wsProject::getInstance();
 $projectmanagmer->processInput();
-
+//print("<PRE>abc");
+//print_r($projectmanagmer);
+//print "</pre>";
 $xoopsOption['template_main'] = $projectmanagmer->getTemplate();
 
 include XOOPS_ROOT_PATH."/header.php";

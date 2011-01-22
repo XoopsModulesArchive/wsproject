@@ -54,4 +54,7 @@ define("_WS_PROJECTUSERNOTE","Task may by assigned to this user and the user can
 define("_WS_PROJECTADMIN2",	"Administrators");
 define("_WS_PROJECTADMINNOTE","User with the right to modify all tasks.");
 define("_WS_ADMINGROUPS",	"Administrator groups<br />This users can<br /> modify every task and project.");
+define("_WS_SERIES", "Add a Series Tasks");
+define("_WS_SERIES_NONE", "none");
+define("_WS_SERIES_HINT", "<b>HINT</b>: If the first character of title of any project is '*', then it will be shown here. If you select it, it's all tasks will be automatic added under your new task.");
 ?>

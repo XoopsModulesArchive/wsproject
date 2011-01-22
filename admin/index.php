@@ -56,13 +56,13 @@ function showAdmin() {
 	xoops_cp_footer();
 }
 
-foreach ($HTTP_GET_VARS as $varname => $value) {
+foreach ($_GET as $varname => $value) {
 	if (is_string($value)) {
 		$value = stripslashes($value);
 	}
 	$vars[$varname] = $value;
 }
-foreach ($HTTP_POST_VARS as $varname => $value) {
+foreach ($_POST as $varname => $value) {
     if (is_string($value)) {
 		$value = stripslashes($value);
 	}

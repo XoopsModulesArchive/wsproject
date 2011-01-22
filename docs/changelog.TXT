@@ -1,0 +1,17 @@
+=================================
+2011/01/22: Version 1.05
+=================================
+
+- Adding sub-task templates from Rickle (see: http://dev.xoops.org/modules/newbb/viewtopic.php?topic_id=1184&forum=47)
+- updating for PHP 5.3 (mamba)
+
+================================
+2010/10/16: Version 1.04
+=================================
+
+- Added set of language files (german, (english)) in utf-8. (Loriaki)
+
+=================================
+2005/05/09: Version 1.03 
+=================================
+- Original release (Stefan Marr)

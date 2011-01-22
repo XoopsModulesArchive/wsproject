@@ -1013,6 +1013,8 @@ class showProject extends wsClass {
 				//MERKEN: Holt die letzte ID die durch ein Insert generiert wurde
 				$task_id = $this->__db->getInsertId();
 
+               // add a series task if the series tasks are selected
+                if ($_REQUEST['series'])  $this->addSeriesTask($_REQUEST['series'], $task_id);
 				//notify user
 				$extra_tags['TASK_NAME'] = $this->_vars['title'];
 				$extra_tags['TASK_HOURS'] = $this->_vars['hours'];
@@ -1229,8 +1231,36 @@ class showProject extends wsClass {
 		$this->__lang['hoursdone'] = _WS_HOURSDONE;
 		$this->__lang['reactivate'] = _WS_REACTIVATE;
 	}
-}
 
+    function addSeriesTask($series_id, $newParent_id, $sParent_id=0) {
+        $sql = "SELECT * FROM `".$this->__db->prefix("ws_tasks"). "` WHERE project_id like $series_id AND parent_id = $sParent_id AND NOT deleted";
+        $result = $this->__db->query($sql);
+        while ($task = mysql_fetch_array($result, MYSQL_ASSOC)) {
+          $nextParent_id =  $this->addNewTask($newParent_id, $task['user_id'], $task['title'], $task['hours'], $task['description']);
+          $this->addSeriesTask($series_id, $nextParent_id, $task['task_id']);
+        }
+    }
+
+    function addNewTask($parent_id, $user_id, $title, $hours=1, $description='') {
+        $sql = "INSERT INTO ".$this->__db->prefix("ws_tasks")." (project_id, user_id, title,
+        hours, startdate, enddate, description, status, public, parent_id, image, deleted)
+        VALUES ('".$this->_vars['project_id']."',
+	   '$user_id',
+	   '$title',
+	   '$hours',
+        NOW(),
+	   '0',
+	   '$description',
+	   '0',
+	   '".((isset($this->_vars['public']))?'1':'0')."',
+	   '$parent_id', 'none',	'0')";
+        $result = $this->__db->query($sql);
+      //  return mysql_insert_id($result);
+		return $this->__db->getInsertId();
+     //echo "<br> $sql Result:". $result;
+    }
+
+}
 
 /**
 * @desc showProject zeigt das gewählte Projekte an<br>
@@ -1432,10 +1462,34 @@ class addTask extends wsClass {
 	function processInput() {
 		//Fertigstellen und Löschen der Aufgaben
 		$this->_getData();
+        $this->_getSeriesOption();
 		$this->__tpl = 'addTask.html';
 		$this->setLanguageData();
 	}
 	
+    function _getSeriesOption() {
+        $count = 0;
+        $table = "<table>\n";
+        $table.= "<tr><td><input type=radio name='series' value=''> "._WS_SERIES_NONE." </td></tr>\n";
+        $sql = "SELECT * FROM ".$this->__db->prefix("ws_projects"). " WHERE NOT deleted";
+        $result = $this->__db->query($sql);
+        while ($projects = $this->__db->fetchArray($result)) {
+			$projectName = stripslashes($projects['name']);
+            if (strpos(' '.$projectName, '*')) {
+                if ($projects[project_id]!=$this->__data['project_id']) {
+                    $projectID = stripslashes($projects['project_id']);
+                    $table .= "<tr><td><input type=radio name='series' value='$projectID'> $projectName </td></tr>\n";
+                    $count++;
+                }
+            }
+        }
+        $table.="</table>\n";
+        if ($count)
+            $this->__data['series_option'] = $table;
+        else
+            $this->__data['series_option'] = _WS_SERIES_HINT;
+    }
+    
 	/**
 	* @desc protected holt die Daten aus der DB
 	* @protected
@@ -1550,6 +1604,8 @@ class addTask extends wsClass {
 		$this->__lang['toplevel'] = _WS_TOPLEVEL;
 		$this->__lang['description'] = _WS_DESCRIPTION;
 		$this->__lang['addtask'] = _WS_ADDTASK;
+        $this->__lang['series'] = _WS_SERIES;
+        $this->__lang['series_none'] = _WS_SERIES_NONE;
 	}
 }
 
