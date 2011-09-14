@@ -16,7 +16,7 @@ CREATE TABLE ws_restrictions (
   PRIMARY KEY  (res_id),
   UNIQUE KEY res_id (res_id),
   KEY res_id_2 (res_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 #
 # Table structure for table 'project'
@@ -29,7 +29,7 @@ CREATE TABLE ws_project (
   conf_value varchar(20) NOT NULL default '0',
   UNIQUE KEY conf_id (conf_id),
   KEY conf_id_2 (conf_id)
-) TYPE=MyISAM COMMENT='Config for wsProject';
+) ENGINE=MyISAM COMMENT='Config for wsProject';
 
 #
 # Table structure for table 'projects'
@@ -46,7 +46,7 @@ CREATE TABLE ws_projects (
   completed_date date default NULL,
   deleted tinyint(1) unsigned default '0',
   PRIMARY KEY  (project_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
 
 
@@ -71,5 +71,5 @@ CREATE TABLE ws_tasks (
   PRIMARY KEY  (task_id),
   KEY project_id (project_id),
   KEY user_id (user_id)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 
