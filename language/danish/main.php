@@ -1,5 +1,5 @@
 <?php
-// $Id: main.php,v 1.12 2005/09/06 21:52:55 gron Exp $
+// $Id$
 
 //include shared constants
 include_once(XOOPS_ROOT_PATH."/modules/wsproject/language/english/shared.php");
