@@ -5,47 +5,47 @@
 // The name of this module
 define("_MI_WSPROJECT_NAME","wsProject");
 // A brief description of this module
-define("_MI_WSPROJECT_DESC","Â²³æ©ö¥Îªº¤@­Ó­p¹º»PºÞ²z±z±M®×ªº¤u¨ã.");
+define("_MI_WSPROJECT_DESC","Â²ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½@ï¿½Ó­pï¿½ï¿½ï¿½Pï¿½Þ²zï¿½zï¿½Mï¿½×ªï¿½ï¿½uï¿½ï¿½.");
 
 // Names of admin menu items
-define('_MI_WSPROJECT_ADMENU1','±M®×ºÞ²z¸s²Õ³]©w');
+define('_MI_WSPROJECT_ADMENU1','ï¿½Mï¿½×ºÞ²zï¿½sï¿½Õ³]ï¿½w');
 
 
-//Die Menüpunkte
-define("_MI_WSPROJECT_COMPLETEDPROJECTS",	"¤w§¹¦¨±M®×");
+//Die Menï¿½punkte
+define("_MI_WSPROJECT_COMPLETEDPROJECTS",	"ï¿½wï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½");
 
-define("_MI_WSPROJECT_ACTIVEPROJECTS","°õ¦æ¤¤±M®×");
-define("_MI_WSPROJECT_MYTASKS",		"§Úªº¥ô°È");
-define("_MI_WSPROJECT_NEWPROJECT",	"³W¹º·s±M®×");
+define("_MI_WSPROJECT_ACTIVEPROJECTS","ï¿½ï¿½ï¿½æ¤¤ï¿½Mï¿½ï¿½");
+define("_MI_WSPROJECT_MYTASKS",		"ï¿½Úªï¿½ï¿½ï¿½ï¿½");
+define("_MI_WSPROJECT_NEWPROJECT",	"ï¿½Wï¿½ï¿½ï¿½sï¿½Mï¿½ï¿½");
 
 //Blocks
-define("_MI_WSPROJECT_PROJECTSTATUS",	"±M®×¶i«×");
-define("_MI_WSPROJECT_PROJECTOVERVIEW",	"±M®×·§Æ[");
+define("_MI_WSPROJECT_PROJECTSTATUS",	"ï¿½Mï¿½×¶iï¿½ï¿½");
+define("_MI_WSPROJECT_PROJECTOVERVIEW",	"ï¿½Mï¿½×·ï¿½ï¿½[");
 
 
 //Notifications
-define ('_MI_WSPROJECT_GLOBAL_NOTIFY', '±M®×¥þ°ì³qª¾¶µ¥Ø');
-define ('_MI_WSPROJECT_GLOBAL_NOTIFYDSC', '¦b©Ò¦³±M®×¥[¤J¥þ°ì´£¿ô³qª¾¶µ¥Ø.');
+define('_MI_WSPROJECT_GLOBAL_NOTIFY', 'ï¿½Mï¿½×¥ï¿½ï¿½ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_WSPROJECT_GLOBAL_NOTIFYDSC', 'ï¿½bï¿½Ò¦ï¿½ï¿½Mï¿½×¥[ï¿½Jï¿½ï¿½ï¿½ì´£ï¿½ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');
 
-define ('_MI_WSPROJECT_PROJECT_NOTIFY', '±M®×³qª¾¶µ¥Ø');
-define ('_MI_WSPROJECT_PROJECT_NOTIFYDSC', '¦b±M®×¥[¤J´£¿ô³qª¾¶µ¥Ø.');
+define('_MI_WSPROJECT_PROJECT_NOTIFY', 'ï¿½Mï¿½×³qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_WSPROJECT_PROJECT_NOTIFYDSC', 'ï¿½bï¿½Mï¿½×¥[ï¿½Jï¿½ï¿½ï¿½ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');
 
-define ('_MI_WSPROJECT_TASK_NOTIFY', '¥ô°È³qª¾¶µ¥Ø');
-define ('_MI_WSPROJECT_TASK_NOTIFYDSC', '¦b¥ô°È¥[¤J´£¿ô³qª¾¶µ¥Ø.');
+define('_MI_WSPROJECT_TASK_NOTIFY', 'ï¿½ï¿½È³qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_WSPROJECT_TASK_NOTIFYDSC', 'ï¿½bï¿½ï¿½È¥[ï¿½Jï¿½ï¿½ï¿½ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');
 
-define ('_MI_WSPROJECT_NEWPROJECT_NOTIFY', '·s±M®×µo§G³qª¾¶µ¥Ø');
-define ('_MI_WSPROJECT_NEWPROJECT_NOTIFYCAP', '¦³·sªº±M®×µo§G³qª¾¶µ¥Ø.');
-define ('_MI_WSPROJECT_NEWPROJECT_NOTIFYDSC', '¦³·sªº±M®×µo§G®É³qª¾§Ú.');
-define ('_MI_WSPROJECT_NEWPROJECT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} ¦Û°Ê´£¿ô³qª¾ : ¦³·sªº±M®×µo§G');
+define('_MI_WSPROJECT_NEWPROJECT_NOTIFY', 'ï¿½sï¿½Mï¿½×µoï¿½Gï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_WSPROJECT_NEWPROJECT_NOTIFYCAP', 'ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Mï¿½×µoï¿½Gï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');
+define('_MI_WSPROJECT_NEWPROJECT_NOTIFYDSC', 'ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Mï¿½×µoï¿½Gï¿½É³qï¿½ï¿½ï¿½ï¿½.');
+define('_MI_WSPROJECT_NEWPROJECT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} ï¿½Û°Ê´ï¿½ï¿½ï¿½qï¿½ï¿½ : ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Mï¿½×µoï¿½G');
 
-define ('_MI_WSPROJECT_NEWTASK_NOTIFY', '·s¥ô°Èµo§G³qª¾¶µ¥Ø');
-define ('_MI_WSPROJECT_NEWTASK_NOTIFYCAP', '¦³·sªº¥ô°Èµo§G³qª¾¶µ¥Ø.');
-define ('_MI_WSPROJECT_NEWTASK_NOTIFYDSC', '¦³·sªº¥ô°Èµo§G«ü©wµ¹§Ú®É³qª¾¶µ¥Ø.');
-define ('_MI_WSPROJECT_NEWTASK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} ¦Û°Ê´£¿ô³qª¾ : ¦³·sªº¥ô°Èµo§G');
+define('_MI_WSPROJECT_NEWTASK_NOTIFY', 'ï¿½sï¿½ï¿½Èµoï¿½Gï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_WSPROJECT_NEWTASK_NOTIFYCAP', 'ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½Èµoï¿½Gï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');
+define('_MI_WSPROJECT_NEWTASK_NOTIFYDSC', 'ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½Èµoï¿½Gï¿½ï¿½ï¿½wï¿½ï¿½ï¿½Ú®É³qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');
+define('_MI_WSPROJECT_NEWTASK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} ï¿½Û°Ê´ï¿½ï¿½ï¿½qï¿½ï¿½ : ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½Èµoï¿½G');
 
-define ('_MI_WSPROJECT_EDITTASK_NOTIFY', '¥ô°È½s­×³qª¾¶µ¥Ø');
-define ('_MI_WSPROJECT_EDITTASK_NOTIFYCAP', '¦³¥ô°È³Q½s­×³qª¾¶µ¥Ø.');
-define ('_MI_WSPROJECT_EDITTASK_NOTIFYDSC', '·í¦³¥ô°È³Q½s­×¹L®É½Ð³qª¾§Ú.');
-define ('_MI_WSPROJECT_EDITTASK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} ¦Û°Ê´£¿ô³qª¾ : ¦³¥ô°È³Q½s­×');
+define('_MI_WSPROJECT_EDITTASK_NOTIFY', 'ï¿½ï¿½È½sï¿½×³qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_WSPROJECT_EDITTASK_NOTIFYCAP', 'ï¿½ï¿½ï¿½ï¿½È³Qï¿½sï¿½×³qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');
+define('_MI_WSPROJECT_EDITTASK_NOTIFYDSC', 'ï¿½ï¿½ï¿½ï¿½ï¿½È³Qï¿½sï¿½×¹Lï¿½É½Ð³qï¿½ï¿½ï¿½ï¿½.');
+define('_MI_WSPROJECT_EDITTASK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} ï¿½Û°Ê´ï¿½ï¿½ï¿½qï¿½ï¿½ : ï¿½ï¿½ï¿½ï¿½È³Qï¿½sï¿½ï¿½');
 
 ?>

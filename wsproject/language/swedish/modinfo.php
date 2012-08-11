@@ -24,28 +24,28 @@ define("_MI_WSPROJECT_PROJECTOVERVIEW",	"Projekt Översikt");
 
 
 //Notifications
-define ('_MI_WSPROJECT_GLOBAL_NOTIFY', 'Globala');
-define ('_MI_WSPROJECT_GLOBAL_NOTIFYDSC', 'Globala underrättelse inställningar.');
+define('_MI_WSPROJECT_GLOBAL_NOTIFY', 'Globala');
+define('_MI_WSPROJECT_GLOBAL_NOTIFYDSC', 'Globala underrättelse inställningar.');
 
-define ('_MI_WSPROJECT_PROJECT_NOTIFY', 'Projekt');
-define ('_MI_WSPROJECT_PROJECT_NOTIFYDSC', 'Underrättelse inställningar för projekt.');
+define('_MI_WSPROJECT_PROJECT_NOTIFY', 'Projekt');
+define('_MI_WSPROJECT_PROJECT_NOTIFYDSC', 'Underrättelse inställningar för projekt.');
 
-define ('_MI_WSPROJECT_TASK_NOTIFY', 'Uppgifter');
-define ('_MI_WSPROJECT_TASK_NOTIFYDSC', 'Underrättelse inställningar för uppgifter.');
+define('_MI_WSPROJECT_TASK_NOTIFY', 'Uppgifter');
+define('_MI_WSPROJECT_TASK_NOTIFYDSC', 'Underrättelse inställningar för uppgifter.');
 
-define ('_MI_WSPROJECT_NEWPROJECT_NOTIFY', 'Nytt Projekt');
-define ('_MI_WSPROJECT_NEWPROJECT_NOTIFYCAP', 'Underrättelse om att ett nytt projekt har startats');
-define ('_MI_WSPROJECT_NEWPROJECT_NOTIFYDSC', 'Meddela mig vid nya projekt.');
-define ('_MI_WSPROJECT_NEWPROJECT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatiskt meddelande : Nytt Projekt');
+define('_MI_WSPROJECT_NEWPROJECT_NOTIFY', 'Nytt Projekt');
+define('_MI_WSPROJECT_NEWPROJECT_NOTIFYCAP', 'Underrättelse om att ett nytt projekt har startats');
+define('_MI_WSPROJECT_NEWPROJECT_NOTIFYDSC', 'Meddela mig vid nya projekt.');
+define('_MI_WSPROJECT_NEWPROJECT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatiskt meddelande : Nytt Projekt');
 
-define ('_MI_WSPROJECT_NEWTASK_NOTIFY', 'Ny Uppgift');
-define ('_MI_WSPROJECT_NEWTASK_NOTIFYCAP', 'Underrättelse om en ny uppgift.');
-define ('_MI_WSPROJECT_NEWTASK_NOTIFYDSC', 'Meddela mig när nya uppgifter tilldelats mig.');
-define ('_MI_WSPROJECT_NEWTASK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatiskt meddelande : Ny Uppgift');
+define('_MI_WSPROJECT_NEWTASK_NOTIFY', 'Ny Uppgift');
+define('_MI_WSPROJECT_NEWTASK_NOTIFYCAP', 'Underrättelse om en ny uppgift.');
+define('_MI_WSPROJECT_NEWTASK_NOTIFYDSC', 'Meddela mig när nya uppgifter tilldelats mig.');
+define('_MI_WSPROJECT_NEWTASK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatiskt meddelande : Ny Uppgift');
 
-define ('_MI_WSPROJECT_EDITTASK_NOTIFY', 'Ändrade Uppgifter');
-define ('_MI_WSPROJECT_EDITTASK_NOTIFYCAP', 'Underrättelse om ändring av uppgift.');
-define ('_MI_WSPROJECT_EDITTASK_NOTIFYDSC', 'Meddela mig om en uppgift har ändrats.');
-define ('_MI_WSPROJECT_EDITTASK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatiskt meddelande : Ändrad Uppgift');
+define('_MI_WSPROJECT_EDITTASK_NOTIFY', 'Ändrade Uppgifter');
+define('_MI_WSPROJECT_EDITTASK_NOTIFYCAP', 'Underrättelse om ändring av uppgift.');
+define('_MI_WSPROJECT_EDITTASK_NOTIFYDSC', 'Meddela mig om en uppgift har ändrats.');
+define('_MI_WSPROJECT_EDITTASK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatiskt meddelande : Ändrad Uppgift');
 
 ?>
