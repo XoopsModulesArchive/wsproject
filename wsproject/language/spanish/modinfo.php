@@ -14,7 +14,7 @@ define('_MI_WSPROJECT_ADMENU1','Parámetros');
 
 
 //Die Menüpunkte
-define("_MI_WSPROJECT_COMPLETEDPROJECTS", "Proyectos terminados");
+define("_MI_WSPROJECT_COMPLETEDPROJECTS","Proyectos terminados");
 
 define("_MI_WSPROJECT_ACTIVEPROJECTS","Proyectos activos");
 define("_MI_WSPROJECT_MYTASKS",		"Mis tareas");

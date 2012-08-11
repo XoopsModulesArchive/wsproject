@@ -11,7 +11,7 @@ define("_WS_NOTE",			"Nota");
 
 define("_WS_COMPLETEPROJECT","Projeto Finalizado");
 
-define("_WS_SUBTASKS", "Subtarefas");
+define("_WS_SUBTASKS","Subtarefas");
 
 define("_WS_REACTIVATE",	"Reativar");
 define("_WS_COMPLETED2",	"Finalizado");
@@ -22,23 +22,23 @@ define("_WS_DELPROJECT1",	"Tem ceteza que deseja deletar o");
 define("_WS_DELPROJECT2",	"projeto");
 define("_WS_DELWARNING",	"TODAS AS TAREFAS E INFORMAÇÕES ASSOSSIADAS SERÃO DELETADAS");
 
-define("_WS_TOPLEVEL", "NÍVEL SUPERIOR (nenhum)");
-define("_WS_SUBTASKOF", "Subtarefa de");
-define("_WS_PUBLIC", "Público");
-define("_WS_QUOTEDHOURS", "Horas Cotadas");
-define("_WS_NOTIFYUSER", "notificar usuário");
-define("_WS_ASSIGNEDTO", "Designada Para");
-define("_WS_TASKNAME", "Nome da Tarefa");
-define("_WS_SHOWPROJECT", "Mostrar Projeto");
-define("_WS_ADDPROJECT", "Adicionar Projeto");
-define("_WS_COMMENTS", "Comentários");
-define("_WS_STARTDATE", "Data de Início");
+define("_WS_TOPLEVEL","NÍVEL SUPERIOR (nenhum)");
+define("_WS_SUBTASKOF","Subtarefa de");
+define("_WS_PUBLIC","Público");
+define("_WS_QUOTEDHOURS","Horas Cotadas");
+define("_WS_NOTIFYUSER","notificar usuário");
+define("_WS_ASSIGNEDTO","Designada Para");
+define("_WS_TASKNAME","Nome da Tarefa");
+define("_WS_SHOWPROJECT","Mostrar Projeto");
+define("_WS_ADDPROJECT","Adicionar Projeto");
+define("_WS_COMMENTS","Comentários");
+define("_WS_STARTDATE","Data de Início");
 define("_WS_PROJECTNAME",	"Nome do Projeto");
 
-define("_WS_PROJECTOVERVIEW", "Resumo de projeto");
+define("_WS_PROJECTOVERVIEW","Resumo de projeto");
 
-define("_WS_WARNING", "Advertência");
-define("_WS_CHILDWARNING", "Esta tarefa contém tarefas dependentes. A eliminação dela eliminará todas as dependentes também");
+define("_WS_WARNING","Advertência");
+define("_WS_CHILDWARNING","Esta tarefa contém tarefas dependentes. A eliminação dela eliminará todas as dependentes também");
 define("_WS_DELTASK",	"Voce tem certeza que deseja deletar essa tarefa");
 
 define("_WS_PLEASEADDGROUP","Por favor, adicione um grupo de usuários. (editar projeto)");

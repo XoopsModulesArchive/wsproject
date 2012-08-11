@@ -11,7 +11,7 @@ define("_WS_NOTE",			"Notering");
 
 define("_WS_COMPLETEPROJECT","Avsluta Projekt");
 
-define("_WS_SUBTASKS", "Deluppgifter");
+define("_WS_SUBTASKS","Deluppgifter");
 
 define("_WS_REACTIVATE",	"Återaktivera");
 define("_WS_COMPLETED2",	"Avslutad");
@@ -22,23 +22,23 @@ define("_WS_DELPROJECT1",	"Är du säker på att du vill radera");
 define("_WS_DELPROJECT2",	"projekt");
 define("_WS_DELWARNING",	"ALLA UPPGIFTER OCH TILLHÖRANDE INFORMATION KOMMER ATT RADERAS");
 
-define("_WS_TOPLEVEL", "Översta Nivån (ingen)");
-define("_WS_SUBTASKOF", "Deluppgift av");
-define("_WS_PUBLIC", "Allmänn");
-define("_WS_QUOTEDHOURS", "Beräknad Tidsåtgång");
-define("_WS_NOTIFYUSER", "Meddela användare");
-define("_WS_ASSIGNEDTO", "Tilldelad");
-define("_WS_TASKNAME", "Namn på Uppgift");
-define("_WS_SHOWPROJECT", "Visa Projekt");
-define("_WS_ADDPROJECT", "Skapa Projekt");
-define("_WS_COMMENTS", "Kommentarer");
-define("_WS_STARTDATE", "Start Datum");
+define("_WS_TOPLEVEL","Översta Nivån (ingen)");
+define("_WS_SUBTASKOF","Deluppgift av");
+define("_WS_PUBLIC","Allmänn");
+define("_WS_QUOTEDHOURS","Beräknad Tidsåtgång");
+define("_WS_NOTIFYUSER","Meddela användare");
+define("_WS_ASSIGNEDTO","Tilldelad");
+define("_WS_TASKNAME","Namn på Uppgift");
+define("_WS_SHOWPROJECT","Visa Projekt");
+define("_WS_ADDPROJECT","Skapa Projekt");
+define("_WS_COMMENTS","Kommentarer");
+define("_WS_STARTDATE","Start Datum");
 define("_WS_PROJECTNAME",	"Projekt Namn");
 
-define("_WS_PROJECTOVERVIEW", "Projekt Beskrivning");
+define("_WS_PROJECTOVERVIEW","Projekt Beskrivning");
 
-define("_WS_WARNING", "Varning");
-define("_WS_CHILDWARNING", "Denna uppgift innehåller deluppgifter. Även deluppgifterna kommer att raderas!");
+define("_WS_WARNING","Varning");
+define("_WS_CHILDWARNING","Denna uppgift innehåller deluppgifter. Även deluppgifterna kommer att raderas!");
 define("_WS_DELTASK",	"Är du säker på att du vill radera denna uppgift");
 
 define("_WS_PLEASEADDGROUP","Vänligen lägg till en användargrupp. (editera projekt)");

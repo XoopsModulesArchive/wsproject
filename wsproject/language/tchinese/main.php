@@ -7,51 +7,51 @@ include_once(XOOPS_ROOT_PATH."/modules/wsproject/language/tchinese/shared.php");
 
 define("_WS_USERDETAILS","");
 
-define("_WS_NOTE",			"³qª¾");
+define("_WS_NOTE",			"ï¿½qï¿½ï¿½");
 
-define("_WS_COMPLETEPROJECT","±M®×§¹¦¨");
+define("_WS_COMPLETEPROJECT","ï¿½Mï¿½×§ï¿½ï¿½ï¿½");
 
-define("_WS_SUBTASKS", "¤º§t¤À¶µ¥ô°È");
+define("_WS_SUBTASKS","ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 
-define("_WS_REACTIVATE",	"­«·s±Ò°Ê");
-define("_WS_COMPLETED2",	"§¹¦¨¤é´Á");
-define("_WS_RESTORE",		"©ñ±ó§ó·s");
-define("_WS_UPDATETASK",	"§ó·s¥ô°È");
-define("_WS_UPDATEPROJECT",	"§ó·s±M®×");
-define("_WS_DELPROJECT1",	"±z½T»{­n§R°£ ¡Õ");
-define("_WS_DELPROJECT2",	"¡Ö ³o­Ó±M®×¶Ü");
-define("_WS_DELWARNING",	"¿ï¾Ü¬O¡A³o­Ó±M®×¸Ìªº©Ò¦³¥ô°È»P¨ä¬ÛÃö¤§°T®§±N·|¦P®É³Q§R°£³á¡I");
+define("_WS_REACTIVATE",	"ï¿½ï¿½ï¿½sï¿½Ò°ï¿½");
+define("_WS_COMPLETED2",	"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_WS_RESTORE",		"ï¿½ï¿½ï¿½ï¿½s");
+define("_WS_UPDATETASK",	"ï¿½ï¿½sï¿½ï¿½ï¿½");
+define("_WS_UPDATEPROJECT",	"ï¿½ï¿½sï¿½Mï¿½ï¿½");
+define("_WS_DELPROJECT1",	"ï¿½zï¿½Tï¿½{ï¿½nï¿½Rï¿½ï¿½ ï¿½ï¿½");
+define("_WS_DELPROJECT2",	"ï¿½ï¿½ ï¿½oï¿½Ó±Mï¿½×¶ï¿½");
+define("_WS_DELWARNING",	"ï¿½ï¿½Ü¬Oï¿½Aï¿½oï¿½Ó±Mï¿½×¸Ìªï¿½ï¿½Ò¦ï¿½ï¿½ï¿½È»Pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½Nï¿½|ï¿½Pï¿½É³Qï¿½Rï¿½ï¿½ï¿½ï¿½I");
 
-define("_WS_TOPLEVEL", "¡]³»¼h¥D­n¥ô°È¡^");
-define("_WS_SUBTASKOF", "¦¹¤À¶µ¥ô°ÈÄÝ©ó");
-define("_WS_PUBLIC", "¤½¶}");
-define("_WS_QUOTEDHOURS", "¹w©w®É¼Æ");
-define("_WS_NOTIFYUSER", "³qª¾¥Î¤á");
-define("_WS_ASSIGNEDTO", "¥ô°È¤À°tµ¹");
-define("_WS_TASKNAME", "¥ô°È¦WºÙ");
-define("_WS_SHOWPROJECT", "±M®×»P¥ô°È¬ÛÃö¤º®e");
-define("_WS_ADDPROJECT", "·s¼W±M®×");
-define("_WS_COMMENTS", "±M®×¤º®e´y­z");
-define("_WS_STARTDATE", "±M®×°_©l¤é´Á");
-define("_WS_PROJECTNAME",	"±M®×¦WºÙ");
+define("_WS_TOPLEVEL","ï¿½]ï¿½ï¿½ï¿½hï¿½Dï¿½nï¿½ï¿½È¡^");
+define("_WS_SUBTASKOF","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý©ï¿½");
+define("_WS_PUBLIC","ï¿½ï¿½ï¿½}");
+define("_WS_QUOTEDHOURS","ï¿½wï¿½wï¿½É¼ï¿½");
+define("_WS_NOTIFYUSER","ï¿½qï¿½ï¿½ï¿½Î¤ï¿½");
+define("_WS_ASSIGNEDTO","ï¿½ï¿½È¤ï¿½ï¿½tï¿½ï¿½");
+define("_WS_TASKNAME","ï¿½ï¿½È¦Wï¿½ï¿½");
+define("_WS_SHOWPROJECT","ï¿½Mï¿½×»Pï¿½ï¿½È¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½e");
+define("_WS_ADDPROJECT","ï¿½sï¿½Wï¿½Mï¿½ï¿½");
+define("_WS_COMMENTS","ï¿½Mï¿½×¤ï¿½ï¿½eï¿½yï¿½z");
+define("_WS_STARTDATE","ï¿½Mï¿½×°_ï¿½lï¿½ï¿½ï¿½");
+define("_WS_PROJECTNAME",	"ï¿½Mï¿½×¦Wï¿½ï¿½");
 
-define("_WS_PROJECTOVERVIEW", "±M®×·§Æ[");
+define("_WS_PROJECTOVERVIEW","ï¿½Mï¿½×·ï¿½ï¿½[");
 
-define("_WS_WARNING", "Äµ§i");
-define("_WS_CHILDWARNING", "³o­Ó¥ô°È¤º§t¤À¶µ¥ô°È. §R°£°Ê§@·|³s¦P©Ò§t¤À¶µ¥ô°È¤@¨Ö§R°£!");
-define("_WS_DELTASK",	"±z½T»{­n§R°£³o­Ó¥ô°È¶Ü¡H");
+define("_WS_WARNING","Äµï¿½i");
+define("_WS_CHILDWARNING","ï¿½oï¿½Ó¥ï¿½È¤ï¿½ï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½. ï¿½Rï¿½ï¿½ï¿½Ê§@ï¿½|ï¿½sï¿½Pï¿½Ò§tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¤@ï¿½Ö§Rï¿½ï¿½!");
+define("_WS_DELTASK",	"ï¿½zï¿½Tï¿½{ï¿½nï¿½Rï¿½ï¿½ï¿½oï¿½Ó¥ï¿½È¶Ü¡H");
 
-define("_WS_PLEASEADDGROUP","½Ð¿ï¾Ü¤@­Ó¨Ï¥ÎªÌ¸s²Õ¥H«K¶i¦æ±M®×½s­×");
+define("_WS_PLEASEADDGROUP","ï¿½Ð¿ï¿½Ü¤@ï¿½Ó¨Ï¥ÎªÌ¸sï¿½Õ¥Hï¿½Kï¿½iï¿½ï¿½Mï¿½×½sï¿½ï¿½");
 
 //admin
-define("_WS_PROJECTADMIN",	"±M®×ºÞ²z¸s²Õ³]©w");
-define("_WS_CONFIG",		"¿ï¾Ü±M®×ºÞ²z¸s²Õ");
-define("_WS_USEDGROUPS",	"¿ï¾Üªº¸s²Õ");
-define("_WS_APPLY",			"½T»{¿ï¾Ü");
+define("_WS_PROJECTADMIN",	"ï¿½Mï¿½×ºÞ²zï¿½sï¿½Õ³]ï¿½w");
+define("_WS_CONFIG",		"ï¿½ï¿½Ü±Mï¿½×ºÞ²zï¿½sï¿½ï¿½");
+define("_WS_USEDGROUPS",	"ï¿½ï¿½Üªï¿½ï¿½sï¿½ï¿½");
+define("_WS_APPLY",			"ï¿½Tï¿½{ï¿½ï¿½ï¿½");
 
-define("_WS_PROJECTUSER",	"¼Ð·Ç¨Ï¥ÎªÌ");
-define("_WS_PROJECTUSERNOTE","¥ô°È¥i¥H«ü¬£µ¹©Ò¿ï¾Ü¤§¸s²Õ¡A³o­Ó¸s²Õªº¨Ï¥ÎªÌ±N³Q±ÂÅv¥i¥HÅÜ§ó³o¶µ¥ô°Èªº¶i¦æª¬ºA¡C");
-define("_WS_PROJECTADMIN2",	"±M®×ºÞ²z­û");
-define("_WS_PROJECTADMINNOTE","±ÂÅv©Ò¿ï¾Ü¤§¸s²Õ¡A¥i¥HºÞ²z§ó·s¦¹±M®×¤º¤§©Ò¦³¥ô°È»P¨BÆJ¡C");
-define("_WS_ADMINGROUPS",	"±M®×ºÞ²z¸s²Õ¡G<br />¸g¿ï¾Ü¤§¸s²Õ±N³Q±ÂÅv<br /> ¥i¥H½s­×ºÞ²z©Ò¦³ªº±M®×»P¥ô°È¡C");
+define("_WS_PROJECTUSER",	"ï¿½Ð·Ç¨Ï¥Îªï¿½");
+define("_WS_PROJECTUSERNOTE","ï¿½ï¿½È¥iï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò¿ï¿½Ü¤ï¿½ï¿½sï¿½Õ¡Aï¿½oï¿½Ó¸sï¿½Õªï¿½ï¿½Ï¥ÎªÌ±Nï¿½Qï¿½ï¿½ï¿½vï¿½iï¿½Hï¿½Ü§ï¿½oï¿½ï¿½ï¿½ï¿½Èªï¿½ï¿½iï¿½æª¬ï¿½Aï¿½C");
+define("_WS_PROJECTADMIN2",	"ï¿½Mï¿½×ºÞ²zï¿½ï¿½");
+define("_WS_PROJECTADMINNOTE","ï¿½ï¿½ï¿½vï¿½Ò¿ï¿½Ü¤ï¿½ï¿½sï¿½Õ¡Aï¿½iï¿½Hï¿½Þ²zï¿½ï¿½sï¿½ï¿½ï¿½Mï¿½×¤ï¿½ï¿½ï¿½ï¿½Ò¦ï¿½ï¿½ï¿½È»Pï¿½Bï¿½Jï¿½C");
+define("_WS_ADMINGROUPS",	"ï¿½Mï¿½×ºÞ²zï¿½sï¿½Õ¡G<br />ï¿½gï¿½ï¿½Ü¤ï¿½ï¿½sï¿½Õ±Nï¿½Qï¿½ï¿½ï¿½v<br /> ï¿½iï¿½Hï¿½sï¿½×ºÞ²zï¿½Ò¦ï¿½ï¿½ï¿½ï¿½Mï¿½×»Pï¿½ï¿½È¡C");
 ?>
