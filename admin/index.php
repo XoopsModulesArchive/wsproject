@@ -35,8 +35,8 @@ if ( file_exists("../language/".$xoopsConfig['language']."/main.php") ) {
 }
 
 function showAdmin() {
-	$xoopsDB =& Database::getInstance();
-	$myts =& MyTextSanitizer::getInstance();
+	$xoopsDB = Database::getInstance();
+	$myts = MyTextSanitizer::getInstance();
 	xoops_cp_header();
     echo "<h4>"._WS_PROJECTADMIN."</h4>";
 	include XOOPS_ROOT_PATH."/class/xoopsformloader.php";

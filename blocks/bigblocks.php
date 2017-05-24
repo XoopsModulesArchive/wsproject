@@ -30,7 +30,7 @@ include_once(XOOPS_ROOT_PATH."/modules/wsproject/class/functions.php");
 function b_wsproject_show_projectoverview($options){
 	global $member_handler;
 	if (isset($options[0]) and $options[0] != '') {
-		$xoopsDB =& Database::getInstance();
+		$xoopsDB = Database::getInstance();
 		//init data variable
 		$data = array();
 		$tb_tasks = $xoopsDB->prefix("ws_tasks");

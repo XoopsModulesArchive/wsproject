@@ -104,7 +104,7 @@ function createMiniBar($colour, $percent) {
 * @return array with id's
 
 function getUsedGroups() {
-	$xoopsDB =& Database::getInstance();
+	$xoopsDB = Database::getInstance();
 	
 	$groups = array();
 	
@@ -123,7 +123,7 @@ function getUsedGroups() {
 * @param array with group id's
 
 function setUsedGroups($groups) {
-	$xoopsDB =& Database::getInstance();
+	$xoopsDB = Database::getInstance();
 	
 	$tb_conf = $xoopsDB->prefix("ws_project");
 	
@@ -142,7 +142,7 @@ function setUsedGroups($groups) {
 * @return array with id's
 */
 function getAdminGroups() {
-	$xoopsDB =& Database::getInstance();
+	$xoopsDB = Database::getInstance();
 	
 	$groups = array();
 	
@@ -161,7 +161,7 @@ function getAdminGroups() {
 * @param array with group id's
 */
 function setAdminGroups($groups) {
-	$xoopsDB =& Database::getInstance();
+	$xoopsDB = Database::getInstance();
 	
 	$tb_conf = $xoopsDB->prefix("ws_project");
 	
@@ -180,7 +180,7 @@ function setAdminGroups($groups) {
 * @return array [name] [id]
 */
 function getProjectsIdAndName() {
-	$xoopsDB =& Database::getInstance();
+	$xoopsDB = Database::getInstance();
 	
 	$tb_projects = $xoopsDB->prefix("ws_projects");
 	

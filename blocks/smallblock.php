@@ -31,7 +31,7 @@ function b_wsproject_show_smallblock($options) {
 	if ($options[0] == '') {
 		$options[0] = 'random';
 	}
-	$xoopsDB =& Database::getInstance();
+	$xoopsDB = Database::getInstance();
 	
 	if ($options[0] == 'random') {
 		$sql = "SELECT project_id FROM ".$xoopsDB->prefix("ws_projects");
